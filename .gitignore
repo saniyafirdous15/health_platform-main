@@ -1,0 +1,35 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+backend/.env
+
+# Ignore model files (optional — only if you don't want to push trained models)
+*.h5
+
+# Ignore virtual environment folders
+venv/
+env/
+
+backend/.env
+*.h5
+__pycache__/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+backend/.env
+
+# Ignore Streamlit cache
+frontend/.streamlit/
+.streamlit/
+
+# Ignore logs
+*.log
